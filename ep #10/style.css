@@ -1,0 +1,128 @@
+body{
+    background: #eeeeee;
+}
+
+.wrapper{
+    background: #ffffff;
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.wrapper:after{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+img{
+    width: 100%;
+}
+
+.blue{
+    background: blue;
+    float: right;
+}
+
+.red{
+    background: red;
+    float: right;
+}
+
+.green{
+    background: green;
+    float: right;
+}
+
+.box{
+    height: 100px;
+    width: 100px;
+}
+
+.service h2, .service p{
+    color: #999999;
+    margin: 10px 0;
+    text-align: center;
+}
+
+.service{
+    float: left;
+    background: #eeeeee;
+    width: 29%;
+    margin: 1%;
+    padding: 1%;
+    height: 140px;
+}
+
+.services:after{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.content{
+    padding: 10px;
+    clear: left;
+    margin: 20px 1%;
+}
+
+.content p{
+    -webkit-column-count: 3;
+    -webkit-column-gap: 30px;
+    -webkit-column-rule: 1px solid #ccc;
+    column-count: 3;
+    column-gap: 30px;
+    column-rule: 1px solid #ccc;
+    text-align: justify;
+}
+
+section, aside{
+    float: left;
+    width: 46%;
+    padding: 1%;
+    margin: 1%;
+    background: #f2f2f2;
+}
+
+.columns:after{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+#banner{
+    max-height: 300px;
+    overflow: hidden;
+    margin: 1%;
+    position: relative;
+}
+
+#banner h2{
+    position: absolute;
+    top: 30px;
+    margin: 0;
+    width: 100%;
+    text-align: center;
+    color: #f2f2f2;
+}
+
+
+nav{
+    background: grey;
+    position: fixed;
+    top: 0;
+    left: auto;
+    width: 960px;
+}
+
+nav ul:after{
+    content: "";
+    display: block;
+    clear: both;
+}
+nav li {
+    list-style-type: none;
+    margin: 0 10px;
+    color: #f2f2f2;
+    float: right;
+}
