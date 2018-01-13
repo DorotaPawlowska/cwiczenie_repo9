@@ -54,6 +54,24 @@ img{
     margin: 1%;
     padding: 1%;
     height: 140px;
+    position: relative;
+}
+
+.service:nth-child(1){
+    top: 10px;
+}
+
+.service:nth-child(2){
+    top: 20px;
+}
+
+.service:nth-child(3){
+    top: 30px;
+}
+
+.services{
+    max-height: 150px;
+    overflow: hidden;
 }
 
 .services:after{
